@@ -1,0 +1,24 @@
+{
+  "name": "urlshortenermicroservice",
+  "version": "1.0.0",
+  "description": "API Projects: URL Shortener Microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YevhenSu/UrlShortenerMicroservice.git"
+  },
+  "keywords": [
+    "API",
+    "Microservice",
+    "URL"
+  ],
+  "author": "Yevhen Susidka / YevhenSu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YevhenSu/UrlShortenerMicroservice/issues"
+  },
+  "homepage": "https://github.com/YevhenSu/UrlShortenerMicroservice#readme"
+}
