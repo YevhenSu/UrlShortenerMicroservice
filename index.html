@@ -3,26 +3,26 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <meta charset="UTF-8">
-    <title>Timestamp Microservice</title>
+    <title>URL Shortener Microservice</title>
 </head>
 <body>
 <div class="container">
-    <h1 class="header">API Projects: Timestamp Microservice</h1>
+    <h1 class="header">API Projects: URL Shortener Microservice</h1>
     <p>By Yevhen Susidka / YevhenSu |
-        <a href="https://github.com/YevhenSu/timestampMicroservice">Project GitHub</a></p>
+        <a href="https://github.com/YevhenSu/UrlShortenerMicroservice">Project GitHub</a></p>
     <blockquote>User Stories:
         <ol>
-            <li> I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).</li>
-            <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
-            <li>If it does not contain a date or Unix timestamp, it returns null for those properties.<code>null</code> for those properties.</li>
+            <li>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</li>
+            <li>If I pass an invalid URL that doesn't follow the valid <code>http://www.example.com</code> format, the JSON response will contain an error instead.</li>
+            <li>When I visit that shortened URL, it will redirect me to my original link.</li>
         </ol>
     </blockquote>
     <h2>Example usage:</h2>
-    <code>https://yevhensu-timestamp-microservice.glitch.me/September%2027,%202017</code><br>
-    <code>https://yevhensu-timestamp-microservice.glitch.me/1506470400</code>
+    <code></code><br>
+    <code></code>
     <h2>Example output:</h2>
-    <code>{ "unix": 1450137600, "natural": "December 15, 2015" }</code><br>
-    <code>{ "unix": null, "natural": null }</code>
+    <code></code><br>
+    <code></code>
 </div>
 </body>
 </html>
