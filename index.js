@@ -4,7 +4,7 @@ const mongodb = require('mongodb');
 const MongoClient = mongodb.MongoClient;
 const MONGODB_URI = 'mongodb://'+process.env.USER+':'+process.env.PASS+'@'+process.env.HOST+':'+process.env.DB_PORT+'/'+process.env.DB;
 const express = require('express');
-const app express();
+const app = express();
 const path = require('path');
 
 app.get('/', (req, res) => {
