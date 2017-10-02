@@ -49,7 +49,7 @@ app.get('/new/:url(*)', (req, res) => {
 });
 
 app.get('/:shortid', (req, res) => {
-  MonfoClient.connect(MONGODB_URI, (err, db) => {
+  MongoClient.connect(MONGODB_URI, (err, db) => {
     if (err) console.log(`Unable to connect to the mongoDB server. Error: ${err}`);
     else {
       const collection = db.collection('uris');
