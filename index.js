@@ -38,7 +38,7 @@ app.get('/new/:url(*)', (req, res) => {
           });
         } else {
           res.json({
-            'error': 'Please provide valid URL to order to shorten it'
+            'error': 'URL invalid'
           });
         }
       }
