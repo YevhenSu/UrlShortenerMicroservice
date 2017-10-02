@@ -30,12 +30,12 @@ app.get('/new/:url(*)', (req, res) => {
           collection.count().then((number) => {
             let newElement = {
               original_url: req.params.url,
-              short_url: 
+              short_url:"https://yevhensu-url-shortener.glitch.me/" + (number + 1) 
             };
             collection.insert([newElement]);
             res.json({
               original_url: req.params.url,
-              short_url: ""  
+              short_url: "https://yevhensu-url-shortener.glitch.me/" + (number + 1) 
             });
           });
         } else {
@@ -58,7 +58,7 @@ app.get('/:shortid', (req, res) => {
       
       const query = (db, callback) => {
         collection.findOne({
-          'short_url': 
+          'short_url': "https://yevhensu-url-shortener.glitch.me/" + req.params.shortid
         }, {
           original_url: 1,
           _id: 0
