@@ -24,7 +24,7 @@
   "homepage": "https://github.com/YevhenSu/UrlShortenerMicroservice#readme",
   "dependencies": {
     "express": "^4.13.3",
-    "mongodb": "3.4.9",
+    "mongodb": "^2.2.31",
     "nodemon": "^1.11.0"
   }
 }
