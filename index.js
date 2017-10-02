@@ -1,5 +1,3 @@
-//to add in short_url
-
 'use strict'
 
 const mongodb = require('mongodb');
